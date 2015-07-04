@@ -1,0 +1,22 @@
+﻿@using System.Globalization
+@model IEnumerable<Domain_Areas.Entidades.Automovel>
+
+<div id="Centro">
+    <div id="Cadastro"  class="CadastroCliente">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+        
+            foreach (var model in Model)
+            {
+                <div>
+                    @Html.TextBox("Marca",model.Marca, new {@class="ListaDeAutomoveis", disabled="true"})
+                   @Html.TextBox("Chevrolet",model.TipoAutomovel, new {@class="ListaDeAutomoveis", disabled="true"})
+                    <button type="submit" value="Editar">Editar</button>
+                </div>
+            }
+        }
+  
+    </div>
+</div>

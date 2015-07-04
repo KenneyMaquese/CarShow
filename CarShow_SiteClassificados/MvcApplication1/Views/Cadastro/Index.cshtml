@@ -1,0 +1,51 @@
+﻿@using System.ServiceModel.Description
+@using System.Web.Mvc.Html
+@using System.Web.UI.WebControls
+@using Domain_Areas.Entidades
+@model Domain_Areas.Entidades.Loguin
+<div id="Centro">
+    <div id="Cadastro"  class="CadastroCliente">
+        @using (Html.BeginForm())
+        {   
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+            <div>
+                <div>
+                    @Html.Label("Tipo de Conta")
+                </div>
+                @Html.DropDownListFor(x => x.Clientes.TipoCLiente,(SelectList)ViewBag.TiposDeCliente , new {@id ="DropDown"})
+            </div>
+            <div>
+                <div id="labels">
+                    @Html.LabelFor(x => x.Clientes.Nome)
+                </div>
+                    @Html.TextBoxFor( x => x.Clientes.Nome , new {@id="entradadedados"} )
+
+            </div>
+            <div>
+                <div id="labels">
+                @Html.LabelFor(model => model.Log)
+                </div>
+                @Html.TextBoxFor(model => model.Log, new {@id ="entradadedados"})
+            </div>
+            <div>
+               <div id="labels">
+                @Html.LabelFor(model => model.Senha)
+                     </div>
+                @Html.PasswordFor(model => model.Senha, new {@id ="entradadedados"})
+            </div>
+                <div>
+                    <div id="labels">
+                        @Html.LabelFor(x => x.SenhaAntiga)   
+                          </div>        
+                        @Html.PasswordFor(model => model.SenhaAntiga, new {@id ="entradadedados"})            
+                </div>
+            <div>
+                <button  type="submit">
+                    Cadastrar
+                </button>
+
+            </div>
+        }
+    </div>
+</div>

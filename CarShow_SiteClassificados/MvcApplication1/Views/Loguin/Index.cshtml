@@ -1,0 +1,29 @@
+﻿@model Domain_Areas.Entidades.Loguin
+    <div id="loguin">      
+ @using (Html.BeginForm())
+ {
+     @Html.AntiForgeryToken()
+     @Html.ValidationSummary(true)
+     <div id="Centro">
+         <div id="Cadastro"  class="CadastroCliente">
+             <div>
+                 <div>
+                     @Html.LabelFor(x => x.Log)
+                 </div>
+                 @Html.EditorFor(x => x.Log)
+             </div>
+             <div>
+                 <div>
+                     @Html.LabelFor(x => x.Senha)
+                 </div>
+                 @Html.PasswordFor(x => x.Senha)
+             </div>
+             <input type="submit" value="submit"/>
+         </div>
+    
+     </div>
+     
+ }
+        
+
+</div> 
