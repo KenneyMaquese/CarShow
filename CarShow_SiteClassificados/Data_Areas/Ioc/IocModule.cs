@@ -18,7 +18,6 @@ namespace Data_Areas.Ioc
             Bind<IClienteRepositorio>().To<ClienteRepositorio>();
             Bind<ILoguinRepositorio>().To<LoguinRepositorio>();
             Bind<IEnderecoRepositorio>().To<EnderecoRepositorio>();
-            Bind<ICadastroDeCliente>().To<ICadastroDeCliente>();
             Bind<IAutomovelRepositorio>().To<AutomovelRepositorio>();
 
         }

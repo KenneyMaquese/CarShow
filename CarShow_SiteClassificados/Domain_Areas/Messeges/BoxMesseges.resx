@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Caminhao" xml:space="preserve">
+    <value>Caminhão </value>
+  </data>
   <data name="ClientePessoaFisica" xml:space="preserve">
     <value>Cliente Pessoa Fisica</value>
   </data>
@@ -125,5 +128,8 @@
   </data>
   <data name="Selecione" xml:space="preserve">
     <value>Selecione...</value>
+  </data>
+  <data name="Utilitario" xml:space="preserve">
+    <value>Utilitário</value>
   </data>
 </root>

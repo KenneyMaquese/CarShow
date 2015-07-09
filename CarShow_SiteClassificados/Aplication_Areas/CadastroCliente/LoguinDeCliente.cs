@@ -32,7 +32,7 @@ namespace Aplication_Areas.CadastroCliente
 
             if (Loguin != null)
             {
-                Loguin.Clientes = BuscaClienteDoLog(Loguin.Id);
+                Loguin.Cliente = BuscaClienteDoLog(Loguin.Id);
                 Logado = true;
             }
             return Loguin;

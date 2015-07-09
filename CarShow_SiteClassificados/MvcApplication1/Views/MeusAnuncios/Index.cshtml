@@ -1,4 +1,6 @@
 ﻿@using System.Globalization
+@using Domain_Areas.Entidades
+@using Domain_Areas.Enumeradores
 @model IEnumerable<Domain_Areas.Entidades.Automovel>
 
 <div id="Centro">
@@ -6,14 +8,16 @@
         @using (Html.BeginForm())
         {
             @Html.AntiForgeryToken()
-            @Html.ValidationSummary(true)
         
             foreach (var model in Model)
             {
                 <div>
                     @Html.TextBox("Marca",model.Marca, new {@class="ListaDeAutomoveis", disabled="true"})
-                   @Html.TextBox("Chevrolet",model.TipoAutomovel, new {@class="ListaDeAutomoveis", disabled="true"})
-                    <button type="submit" value="Editar">Editar</button>
+                    @Html.TextBox("TipoAutomovel",(TipoAutomovel)model.TipoAutomovel, new {@class="ListaDeAutomoveis", disabled="true"})
+                    @Html.TextBox("Modelo",model.Modelo,new {@class="ListaDeAutomoveis", disabled="true"})
+                    <button>
+                        @Html.ActionLink("Editar","EditarAutomovel", routeValues: new{idcliente=model.ClienteId, id=model.AutomovelId, tipo=model.TipoAutomovel, marca=model.Marca, modelo=model.Modelo, descricao=model.Descricao, cliente=model.Clientes})
+                    </button>
                 </div>
             }
         }

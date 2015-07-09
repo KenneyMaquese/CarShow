@@ -2,9 +2,10 @@
 {
     public enum TipoAutomovel
     {
-        Carro = 0,
-        Moto = 1,
-        Utilitario = 2,
-        Caminhao = 3,
+
+        Carro = 1,
+        Moto = 2,
+        Utilitario = 3,
+        Caminhao = 4,
     }
 }

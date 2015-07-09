@@ -61,6 +61,15 @@ namespace Domain_Areas.Messeges {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Caminhão .
+        /// </summary>
+        public static string Caminhao {
+            get {
+                return ResourceManager.GetString("Caminhao", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cliente Pessoa Fisica.
         /// </summary>
         public static string ClientePessoaFisica {
@@ -84,6 +93,15 @@ namespace Domain_Areas.Messeges {
         public static string Selecione {
             get {
                 return ResourceManager.GetString("Selecione", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Utilitário.
+        /// </summary>
+        public static string Utilitario {
+            get {
+                return ResourceManager.GetString("Utilitario", resourceCulture);
             }
         }
     }

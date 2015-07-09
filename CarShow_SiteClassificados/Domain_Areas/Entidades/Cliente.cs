@@ -13,7 +13,7 @@ namespace Domain_Areas.Entidades
 
         public virtual ICollection<Contato> Contatos { get; set; }
         //public virtual Endereco Enderecos { get; set; } teoricamente não preciso saber o endereço da pessoa 
-        public virtual Loguin Loguins { get; set; }
+        public virtual Loguin Loguin { get; set; }
         public virtual ICollection<Automovel> Automoveis { get; set; }
  
     }

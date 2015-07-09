@@ -111,6 +111,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\BuscaCarrosController.cs" />
     <Compile Include="Controllers\CadastroController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoguinController.cs" />
@@ -209,10 +210,13 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\Footer.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Shared\PartedeCima.cshtml" />
+    <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Cadastro\Index.cshtml" />
     <Content Include="Views\Loguin\Index.cshtml" />
     <Content Include="Views\MeusAnuncios\Index.cshtml" />
+    <Content Include="Views\MeusAnuncios\EditarAutomovel.cshtml" />
+    <Content Include="Views\MeusAnuncios\EditarAutomovell.cshtml" />
+    <Content Include="Views\BuscaCarros\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

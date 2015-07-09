@@ -16,6 +16,6 @@ namespace Domain_Areas.Entidades
         public string Telefone { get; set; }
         public string Celular { get; set; }
 
-        public virtual Cliente Clientes { get; set; }
+        public virtual Cliente Cliente { get; set; }
     }
 }

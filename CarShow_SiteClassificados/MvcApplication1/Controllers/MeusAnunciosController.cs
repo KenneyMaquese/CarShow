@@ -17,7 +17,7 @@ namespace MvcApplication1.Controllers
         }
         //
         // GET: /MeusAnuncios/
-
+        [HttpGet]
         public ActionResult Index(Cliente cliente)
         {
            var anuncios =  _meusAnucios.ListaAutomoveisDoCliente(cliente.ClienteId);
@@ -68,28 +68,42 @@ namespace MvcApplication1.Controllers
         
         //
         // GET: /MeusAnuncios/Edit/5
- 
-        public ActionResult Edit(int id)
+        [HttpGet]
+        public ActionResult EditarAutomovel(Guid idcliente,Guid id, int tipo,int marca, string modelo, string descricao)
         {
-            return View();
+            ViewBag.ListaDeTipoDeAutomovel  = _meusAnucios.ListaDeTipoDeAutomovel(tipo);
+            var automovel =
+            new Automovel
+            {
+                ClienteId = idcliente,
+                AutomovelId = id,
+                Cliente = null,
+                Descricao = descricao,
+                Marca = null,
+                TipoAutomovel = tipo
+            };
+            
+            return View(automovel);
         }
 
         //
         // POST: /MeusAnuncios/Edit/5
 
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult EditarAutomovel(Automovel automovel)
         {
             try
             {
-                // TODO: Add update logic here
- 
-                return RedirectToAction("Index");
+              _meusAnucios.EditarAutomoveis(automovel);
+               automovel.Cliente = _meusAnucios.AcharClientePorId(automovel.ClienteId);
             }
-            catch
+            catch(Exception e)
             {
-                return View();
+                ViewBag.Mensagem = false;
+                return View(automovel);
             }
+             ViewBag.Mensagem = true;
+            return RedirectToAction("Index","MeusAnuncios", automovel.Cliente);
         }
 
         //

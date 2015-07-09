@@ -13,7 +13,7 @@ using Domain_Areas.Messeges;
 
 namespace Aplication_Areas.CadastroCliente
 {
-    public class CadastroCliente: ICadastroDeCliente
+    public class CadastroCliente
     {
         private readonly ILoguinRepositorio _loguinRepositorio;
         private readonly IClienteRepositorio _clienteFisicoRepositorio;
@@ -45,9 +45,9 @@ namespace Aplication_Areas.CadastroCliente
                 {
                     try
                     {
-                        loguin.Clientes.ClienteId = CriaIdentidade();
+                        loguin.Cliente.ClienteId = CriaIdentidade();
                         loguin.Id = CriaIdentidade();
-                        _clienteFisicoRepositorio.Criar(loguin.Clientes);
+                        _clienteFisicoRepositorio.Criar(loguin.Cliente);
                         _loguinRepositorio.Criar(loguin);
                         _clienteFisicoRepositorio.Commit();
 

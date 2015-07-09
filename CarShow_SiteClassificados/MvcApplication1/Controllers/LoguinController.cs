@@ -40,7 +40,7 @@ namespace MvcApplication1.Controllers
             }
             if (_loguinDeCliente.Logado)
             {
-                return RedirectToAction("Index", "MeusAnuncios",loguin.Clientes);
+                return RedirectToAction("Index", "MeusAnuncios",loguin.Cliente);
             }
 
             return View();

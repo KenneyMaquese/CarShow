@@ -70,11 +70,15 @@
     <Compile Include="EntityFramework\Maps\ContatoMap.cs" />
     <Compile Include="EntityFramework\Maps\EnderecoMap.cs" />
     <Compile Include="EntityFramework\Maps\LoguinMap.cs" />
+    <Compile Include="EntityFramework\Maps\MarcaMap.cs" />
+    <Compile Include="EntityFramework\Maps\ModeloMap.cs" />
     <Compile Include="EntityFramework\Repositorios\AutomovelRepositorio.cs" />
     <Compile Include="EntityFramework\Repositorios\ClienteRepositorio.cs" />
     <Compile Include="EntityFramework\Repositorios\ContatoRepositorio.cs" />
     <Compile Include="EntityFramework\Repositorios\EnderecoRepositorio.cs" />
     <Compile Include="EntityFramework\Repositorios\LoguinRepositorio.cs" />
+    <Compile Include="EntityFramework\Repositorios\MarcaRepositorio.cs" />
+    <Compile Include="EntityFramework\Repositorios\ModeloRepositorio.cs" />
     <Compile Include="EntityFramework\Repositorios\RepositorioBase.cs" />
     <Compile Include="Ioc\IocDependecyResolver.cs" />
     <Compile Include="Ioc\IocModule.cs" />

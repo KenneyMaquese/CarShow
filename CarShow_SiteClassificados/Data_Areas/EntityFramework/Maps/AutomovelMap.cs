@@ -13,7 +13,7 @@ namespace Data_Areas.EntityFramework.Maps
         public AutomovelMap()
         {
             HasKey(x => x.AutomovelId);
-            HasRequired(x => x.Clientes);
+            HasRequired(x => x.Cliente);
         }
     }
 }

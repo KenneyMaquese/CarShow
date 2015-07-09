@@ -35,14 +35,17 @@
     <Compile Include="Entidades\Contato.cs" />
     <Compile Include="Entidades\Endereco.cs" />
     <Compile Include="Entidades\Loguin.cs" />
+    <Compile Include="Entidades\Marca.cs" />
+    <Compile Include="Entidades\Modelo.cs" />
     <Compile Include="Enumeradores\TipoAutomovel.cs" />
     <Compile Include="Interfaces\IAutomovelRepositorio.cs" />
-    <Compile Include="Interfaces\ICadastroDeCliente.cs" />
     <Compile Include="Interfaces\IClienteRepositorio.cs" />
     <Compile Include="Interfaces\IContatoRepositorio.cs" />
     <Compile Include="Interfaces\IEnderecoRepositorio.cs" />
     <Compile Include="Interfaces\ILoguinDeCliente.cs" />
     <Compile Include="Interfaces\ILoguinRepositorio.cs" />
+    <Compile Include="Interfaces\IMarcaRepositorio.cs" />
+    <Compile Include="Interfaces\IModeloRepositorio.cs" />
     <Compile Include="Interfaces\IRepositorioBase.cs" />
     <Compile Include="Messeges\BoxMesseges.Designer.cs">
       <AutoGen>True</AutoGen>

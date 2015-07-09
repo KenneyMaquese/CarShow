@@ -14,7 +14,7 @@ namespace Data_Areas.EntityFramework.Maps
         public ContatoMap()
         {
             HasKey(x => x.Id);
-            HasRequired(x => x.Clientes);
+            HasRequired(x => x.Cliente);
         }
     }
 }

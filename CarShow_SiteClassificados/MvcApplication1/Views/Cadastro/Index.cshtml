@@ -13,13 +13,13 @@
                 <div>
                     @Html.Label("Tipo de Conta")
                 </div>
-                @Html.DropDownListFor(x => x.Clientes.TipoCLiente,(SelectList)ViewBag.TiposDeCliente , new {@id ="DropDown"})
+                @Html.DropDownListFor(x => x.Cliente.TipoCLiente,(SelectList)ViewBag.TiposDeCliente , new {@id ="DropDown"})
             </div>
             <div>
                 <div id="labels">
-                    @Html.LabelFor(x => x.Clientes.Nome)
+                    @Html.LabelFor(x => x.Cliente.Nome)
                 </div>
-                    @Html.TextBoxFor( x => x.Clientes.Nome , new {@id="entradadedados"} )
+                    @Html.TextBoxFor( x => x.Cliente.Nome , new {@id="entradadedados"} )
 
             </div>
             <div>

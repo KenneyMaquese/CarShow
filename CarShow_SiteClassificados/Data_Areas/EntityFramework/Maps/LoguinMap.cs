@@ -13,7 +13,7 @@ namespace Data_Areas.EntityFramework.Maps
         public LoguinMap()
         {
             HasKey(x => x.Id);
-            HasRequired(x => x.Clientes);
+            HasRequired(x => x.Cliente);
         }
     }
 }

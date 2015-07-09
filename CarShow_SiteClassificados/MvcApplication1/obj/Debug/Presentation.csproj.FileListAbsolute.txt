@@ -33,3 +33,38 @@ D:\CS(CarShow)\CarShow_SiteClassificados\MvcApplication1\bin\Microsoft.Practices
 D:\CS(CarShow)\CarShow_SiteClassificados\MvcApplication1\bin\Ninject.xml
 D:\CS(CarShow)\CarShow_SiteClassificados\MvcApplication1\bin\Data_Areas.dll
 D:\CS(CarShow)\CarShow_SiteClassificados\MvcApplication1\bin\Data_Areas.pdb
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\MvcApplication1.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\MvcApplication1.pdb
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\Aplication_Areas.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\Data_Areas.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\Domain_Areas.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\EntityFramework.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\EntityFramework.SqlServer.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\Microsoft.Practices.ServiceLocation.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\Ninject.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\System.Web.Helpers.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\System.Web.Mvc.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\System.Web.Providers.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\System.Web.Razor.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\System.Web.WebPages.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\Aplication_Areas.pdb
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\Data_Areas.pdb
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\Domain_Areas.pdb
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\EntityFramework.xml
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\EntityFramework.SqlServer.xml
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\Microsoft.Practices.ServiceLocation.xml
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\Ninject.xml
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\System.Web.Helpers.xml
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\System.Web.Mvc.xml
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\System.Web.Razor.xml
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\System.Web.WebPages.xml
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\CS(CarShow)\Branch 0\branches\Branch-0\CarShow_SiteClassificados\MvcApplication1\obj\Debug\MvcApplication1.pdb

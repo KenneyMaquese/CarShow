@@ -14,6 +14,6 @@ namespace Domain_Areas.Entidades
         public String Senha { get; set; }
         public String SenhaAntiga { get; set; }
 
-        public virtual Cliente Clientes { get; set; }
+        public virtual Cliente Cliente { get; set; }
     }
 }
